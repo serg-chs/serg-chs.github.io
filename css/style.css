@@ -33,24 +33,27 @@ padding-bottom: 22px;
 	margin-top: 20px;
 }
 .header-botton {
+	display: inline-block;
+	text-decoration: none;
 	width: 200px;
-height: 50px;
-box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
-border-radius: 25px;
-background-color: #ffffff;
-color: #072b6f;
-font-weight: 700;
-font-size: 18px;
-padding: 18 56;
-margin-top: 33px;
+	height: 50px;
+	box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
+	border-radius: 25px;
+	background-color: #ffffff;
+	color: #072b6f;
+	font-size: 18px;
+	font-weight: 700;
+	padding: 18px 56px;
+	margin-top: 33px;
 }
-header small {
+
+.header-small {
 font-size: 12px;
 text-align: center;
 display: block;
 margin-top: 9px;
 }
-.header-booton-blok {
+.header-buton-blok {
 max-width: 210px;
 }
 
@@ -136,6 +139,8 @@ margin-bottom: 13px;
 }
 
 .button-ftn {
+	display: inline-block;
+	text-decoration: none;
 	display: inline-block;
 	border: 1px solid #ffffff;
 	background-color: transparent;
